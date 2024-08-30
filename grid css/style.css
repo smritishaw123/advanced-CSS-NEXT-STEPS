@@ -1,0 +1,40 @@
+.container{
+    width:600px;
+    height:300px;
+    background-color: rgb(242, 250, 7);
+    display:grid; /* create a box then write in css  grid format*/
+/*  grid-template-rows:50px 50px 50px 50px 50px;/*grid template no. of tracks*/
+/*  grid-template-columns:200px 200px 200px; */
+    grid-template-rows:repeat(1fr,1fr,1fr,1fr);
+    grid-template-columns:repeat(3,1fr); /* grid template repeat  */
+   /* row-gap: 10px;
+    column-gap:30px;*/ /* grid gap*/
+    grid-gap:10px;     /*shorthand*/
+justify-items:center;/*justify*/
+
+
+}
+.one{
+    justify-self: end;
+}
+.one{
+   /* grid-column-start: 1;  /*1st you take a class then apply grid columns*/
+    /*grid-column-end: 4; */
+    /*grid-column: 1/4;   both20 nad 21 line  example of grid column*/
+    grid-column:1/span 2;
+    }
+ .two{
+   /* grid-row-start: 1;
+    grid-row-end: 3;*/
+    grid-row:1/3span;/*1st you take a class grid row*/
+ }  
+ 
+ 
+
+.item{
+    width:100px;
+    height:50px;
+    background-color: greenyellow;
+    border:2px solid black;
+    text-align:center;
+}

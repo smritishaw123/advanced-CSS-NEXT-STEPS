@@ -1,0 +1,37 @@
+#container{
+    height:300px;
+    width:80%;
+    background-color:azure;
+    margin:10px auto;
+    border:2px solid black;
+    display:flex;/*direction in row means horizontal by default*/
+/*flex-direction:column;
+flex-direction:column-reverse;*/
+/*flex-direction:row;*/
+flex-direction:column;
+justify-content:flex-start;
+flex-wrap:wrap-reverse;/*flex wrap cross axis*/
+/*align-items: baseline;*//*align items*/
+/*justify-content:space-between;
+flex-wrap:wrap-reverse;
+/*justify-content:flex-start; justify content*/
+align-content:space-between; /*align content*/
+align-self: flex-start;
+flex-basis:100px;
+}
+#blue{
+    flex-basis: 400px; /*size increase*/
+   /* flex-grow:1;      width occupy*/
+    flex-shrink: 2;/*shrink*/
+}
+h1{
+    text-align:center;
+}
+#container div{
+    height: 100px;
+    width:100px;
+    color:white;
+    text-align:center;
+    font-size:1.5em;
+
+}
