@@ -10,12 +10,14 @@
    /* row-gap: 10px;
     column-gap:30px;*/ /* grid gap*/
     grid-gap:10px;     /*shorthand*/
-justify-items:center;/*justify*/
-
-
+    justify-items:center;/*justifyhorizotal*/
+    align-items:center;/*horizontal justify*/
+    place-items: center;/*justify properties*/
 }
 .one{
+    /*justify items example*/
     justify-self: end;
+    align-self:end;
 }
 .one{
    /* grid-column-start: 1;  /*1st you take a class then apply grid columns*/

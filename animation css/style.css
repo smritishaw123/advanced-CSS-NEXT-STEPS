@@ -1,0 +1,35 @@
+.box{
+    height:100px;
+    width: 300px;
+    background-color: pink;
+
+    animation-name: widthanimate; /*coloranimate;/*fontanimation,*/ 
+    animation-timing-function:ease-in ;
+    animation-duration: 2s;
+    animation-delay:0;
+    animation-iteration-count:infinite;/*kitnae time tak chalega*/
+    animation-direction:normal; /*alternate*/
+    /*animation:coloranimate 2s ease-in 0S infinite normal;/* SHORTHAND ANIMATION*/
+}
+@keyframes widthanimate/*,fontanimation*/ {      /*create a blueprint template*/
+    from/*starting value*/{
+       width:10px;        /*font-size:20px;*/
+    background-color: greenyellow;
+    
+    }
+    to/*ending value*/{
+        width:400px;    /*font-size:40px;*/
+    background-color: blue;
+    border-radius:15px;
+    
+    }
+    
+}
+@keyframes coloranimate{
+    from{
+        background-color:yellow ;
+    }
+    to{
+        background-color: blue;
+    }
+}
